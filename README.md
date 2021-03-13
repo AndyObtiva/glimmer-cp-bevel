@@ -1,5 +1,5 @@
 # Bevel 0.1.1
-## [<img src="https://raw.githubusercontent.com/AndyObtiva/glimmer/master/images/glimmer-logo-hi-res.png" height=40 /> Glimmer Custom Shape](https://github.com/AndyObtiva/glimmer-dsl-swt/docs/reference/GLIMMER_COMMAND.md#custom-shape-gem)
+## [<img src="https://raw.githubusercontent.com/AndyObtiva/glimmer/master/images/glimmer-logo-hi-res.png" height=40 /> Glimmer Custom Shape](https://github.com/AndyObtiva/glimmer-dsl-swt/blob/master/docs/reference/GLIMMER_COMMAND.md#custom-shape-gem)
 [![Gem Version](https://badge.fury.io/rb/glimmer-cp-bevel.svg)](http://badge.fury.io/rb/glimmer-cp-bevel)
 
 [Glimmer DSL for SWT](https://github.com/AndyObtiva/glimmer-dsl-swt) Bevel Custom Shape.
