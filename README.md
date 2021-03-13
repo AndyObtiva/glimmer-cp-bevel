@@ -1,5 +1,6 @@
-# Bevel 0.1.0
+# Bevel 0.1.1
 ## [<img src="https://raw.githubusercontent.com/AndyObtiva/glimmer/master/images/glimmer-logo-hi-res.png" height=40 /> Glimmer Custom Shape](https://github.com/AndyObtiva/glimmer-dsl-swt/docs/reference/GLIMMER_COMMAND.md#custom-shape-gem)
+[![Gem Version](https://badge.fury.io/rb/glimmer-cp-bevel.svg)](http://badge.fury.io/rb/glimmer-cp-bevel)
 
 [Glimmer DSL for SWT](https://github.com/AndyObtiva/glimmer-dsl-swt) Bevel Custom Shape.
 
@@ -17,9 +18,36 @@ It is used in [Glimmer Tetris](https://github.com/AndyObtiva/glimmer-dsl-swt/blo
 
 ![Glimmer Tetris](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/master/images/glimmer-tetris.png)
 
+## Setup
+
+### Bundler
+
+Add the follwing to `Gemfile`:
+```ruby
+gem 'glimmer-cp-bevel', '~> 0.1.1'
+```
+
+Run `bundle install` or `bundle`:
+```
+bundle
+```
+
+### Direct
+
+Run:
+```
+gem install glimmer-cp-bevel
+```
+
 ## API
 
-`bevel(options)`
+First, add this to your [Ruby](https://www.ruby-lang.org/en/) file:
+```ruby
+require 'glimmer-cp-bevel'
+```
+
+Then, use this keyword:
+`bevel(options) { properties }`
 
 Options (keyword args) are:
 - `:base_color` (required): base background color to produce bevel effect for
@@ -27,6 +55,9 @@ Options (keyword args) are:
 - `:bevel_pixel_size` (optional): adjusts the bevel area
 - `:x` (default: 0) (optional): starting location x coordinate within parent
 - `:y` (default: 0) (optional): starting location y coordinate within parent
+
+Properties are:
+- `base_color` (same as option above)
 
 ## Example
 
@@ -81,6 +112,14 @@ Produces this [Glimmer Tetris](https://github.com/AndyObtiva/glimmer-dsl-swt/blo
     you want to have your own version, or is otherwise necessary, that
     is fine, but please isolate to its own commit so I can cherry-pick
     around it.
+
+## TODO
+
+[TODO.md](/TODO.md)
+
+## Change Log
+
+[CHANGELOG.md](/CHANGELOG.md)
 
 ## License
 

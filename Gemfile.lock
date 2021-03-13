@@ -29,7 +29,7 @@ GEM
       array_include_methods (>= 1.0.4, < 2.0.0)
       concurrent-ruby (>= 1.1.7, < 2.0.0)
       facets (>= 3.1.0, < 4.0.0)
-    glimmer-dsl-swt (4.18.7.4)
+    glimmer-dsl-swt (4.18.7.5)
       glimmer (~> 1.2.0)
       logging (>= 2.3.0, < 3.0.0)
       nested_inherited_jruby_include_package (>= 0.3.0, < 2.0.0)
@@ -69,7 +69,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nested_inherited_jruby_include_package (0.3.0)
-    nokogiri (1.11.1-java)
+    nokogiri (1.11.2-java)
       racc (~> 1.4)
     oauth2 (1.4.4)
       faraday (>= 0.8, < 2.0)
@@ -140,7 +140,7 @@ PLATFORMS
   universal-java-1.8
 
 DEPENDENCIES
-  glimmer-dsl-swt (~> 4.18.7.4)
+  glimmer-dsl-swt (>= 4.18.7.4, < 5.0.0.0)
   juwelier (= 2.4.9)
   rspec (~> 3.5.0)
   simplecov

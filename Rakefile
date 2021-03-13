@@ -22,7 +22,7 @@ Juwelier::Tasks.new do |gem|
   gem.email = "andy.am@gmail.com"
   gem.authors = ["Andy Maleh"]
 
-  gem.files = Dir['glimmer-cp-bevel.gemspec', 'README.md', 'VERSION', 'LICENSE.txt', 'lib/**/*']
+  gem.files = Dir['glimmer-cp-bevel.gemspec', 'CHANGELOG.md', 'README.md', 'VERSION', 'LICENSE.txt', 'lib/**/*']
   # dependencies defined in Gemfile
 end
 Juwelier::RubygemsDotOrgTasks.new
